@@ -78,7 +78,7 @@ void View::user_register(bool &registered) {
     char rd;
     int house_num {0};
     controller->show_map();
-    cout << "\nThis is the map of our hospital." << endl;
+    cout << "\nThis is the map of the city where our animal hospital is located." << endl;
     cout << "Please enter the alphabet corresponding to the road/street you live in and your house number, separated by a space." << endl;
     cout << "For example, for 100 North Ave., just enter '100 j'.\n";
     cin >> house_num >> rd;
