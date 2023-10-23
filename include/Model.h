@@ -16,7 +16,6 @@ private:
     Schedule *schedule;
     Map *map;
 
-    // vector<Owner *> users;
     vector<Vet *> vets;
 
 public:
