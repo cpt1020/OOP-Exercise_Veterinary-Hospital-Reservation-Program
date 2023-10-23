@@ -268,6 +268,7 @@ void View::run() {
             case 6:
                 // Make an Appointment
                 making_appointment();
+                cin.ignore();
                 break;
             case 7:
                 // Show Your Appointment
