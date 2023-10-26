@@ -13,6 +13,12 @@ Owner::Owner(string fname_val, string lname_val, Date dob_val, string mobile_val
         // cout << "Constructor called for " << *this << endl;
 }
 
+Owner::~Owner() {
+    for (int i {0}; i < rsvn.size(); ++i) {
+        delete rsvn.at(i);
+    }
+}
+
 string Owner::get_fname() const {
     return first_name;
 }

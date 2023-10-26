@@ -27,6 +27,9 @@ public:
     // Constructor
     Owner(string fname_val, string lname_val, Date dob_val, string mobile_val, string addr_val);
 
+    // Destructor
+    ~Owner();
+
     string get_fname() const;
     string get_lname() const;
 
